@@ -1,0 +1,70 @@
+html {
+    font-size: 1.5rem;
+}
+
+html, body, #main {
+    background-color: black;
+}
+
+#social-reel .col-6 {
+    margin-bottom: 2em;
+}
+
+#social-reel .btn {
+    border: 2px solid #F8F9FA;
+    color: #F8F9FA;
+    border-radius:50%;
+    height: 90px;
+    width: 90px;
+}
+
+#social-reel .btn  svg{
+    font-size: 1.4em;
+}
+
+#social-reel a {
+    color: #F8F9FA;
+}
+
+#derjohn {
+    font-size: calc(1.9rem + 4.5vw);
+}
+
+#derkleinejohn {
+    font-size: calc(1.1rem + .3vw)!important;
+}
+
+@media (min-width: 768px) { 
+    #social-reel .btn {
+        height: 110px;
+        width: 110px;
+    }
+    #social-reel .btn  svg{
+        font-size: 2em;
+    }
+
+    #derjohn {
+        font-size: calc(1.9rem + 4.5vw);
+    }
+    
+    #derkleinejohn {
+        font-size: calc(1.8rem + .3vw)!important;
+    }
+}
+
+
+@media (min-width: 768px) { 
+    .legalnav {
+        padding-right: 0;
+    }
+
+    .legalnav .btn {
+        padding-right: 0;
+    }
+}
+
+.legalnav a {
+    color: #B8B9BA !important;
+    font-size: 0.6em;
+    text-align: right;
+}
